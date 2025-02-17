@@ -1,0 +1,9 @@
+.MathContainer{
+    width:80%;
+    height:70%;
+    margin:0 auto;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

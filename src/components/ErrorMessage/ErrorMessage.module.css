@@ -1,0 +1,53 @@
+.container{
+    position:absolute;
+    right:10%;
+    width:13%;
+    height:40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color:#fff;
+    background-color: black;
+
+    animation-name: errorMessageAnimation;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.topContainer{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    height:20%;
+    align-items: center;
+}
+.topContainer h2{
+    flex:4; 
+}
+.topContainer button{
+    color:#fff;
+    flex:2;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.topContainer button:hover{
+    cursor: pointer;
+    transition: .5;
+    color:red;
+}
+
+.container h3{
+    width:80%;
+    margin: 0 auto;
+    padding-top:20px;
+}
+
+@keyframes errorMessageAnimation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

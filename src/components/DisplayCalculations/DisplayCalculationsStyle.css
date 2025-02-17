@@ -1,0 +1,15 @@
+.container{
+    background-color: #8ecf8c;
+    width:80%;
+    border:2px solid black;
+    height:80px;
+    border-radius: 10px;
+    margin:40px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding:6px;
+    font-size: 2rem;
+    align-items: center;
+    font-family: "Jersey 25", serif;
+}
